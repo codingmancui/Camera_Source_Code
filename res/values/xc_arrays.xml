@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="pref_camera_shutter_sound_entries">
+       <item>@string/pref_camera_shutter_sound_entries_off</item>
+       <item>@string/pref_camera_shutter_sound_entries_on</item>
+    </string-array>
+
+    <string-array name="pref_camera_shutter_sound_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <string-array name="pref_camera_time_stamp_entries">
+       <item>@string/pref_camera_time_stamp_entries_off</item>
+       <item>@string/pref_camera_time_stamp_entries_on</item>
+    </string-array>
+
+    <string-array name="pref_camera_time_stamp_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <!-- Camera Preferences Video Quality entries -->
+    <string-array name="pref_video_quality_entries_fly" translatable="false">
+        <item>176x144</item>
+        <item>480x320</item>
+        <item>640x480</item>
+        <item>1280x720</item>
+        <item>1920x1080</item>
+    </string-array>
+
+    <string-array name="pref_video_quality_entryvalues_fly" translatable="false">
+        <!-- The integer value of CamcorderProfileEx.QUALITY_LOW -->
+        <item>108</item>
+         <!-- The integer value of CamcorderProfileEx.QUALITY_MEDIUM -->
+        <item>109</item>
+        <!-- The integer value of CamcorderProfileEx.QUALITY_HIGH -->
+        <item>110</item>
+        <!-- The integer value of CamcorderProfileEx.QUALITY_FINE -->
+        <item>111</item>
+        <!-- The integer value of CamcorderProfileEx.QUALITY_1080P -->
+        <item>118</item>
+    </string-array>
+
+    <string-array name="pref_camera_picturesize_entries_fly" translatable="false">
+         <!-- 4:3 -->
+        <item>(0,3M)640x480</item>
+        <item>(1,3M)1280x960</item>
+        <item>(2M)1600x1200</item>
+        <item>(3M)2048x1536</item>
+        <item>(5M)2560x1920</item>
+        <item>(8M)3264x2448</item>
+        <item>(12M)4096x3072</item>
+        <item>(13M)4160x3120</item>
+        <!-- 16:9 -->
+        <item>(1M)1280x720</item>
+        <item>(2M)1920x1080</item>
+        <item>(4M)2560x1440</item>
+        <item>(6M)3328x1872</item>
+        <item>(9,5M)4096x2304</item>
+    </string-array>
+
+    <string-array name="pref_camera_picturesize_entryvalues_fly" translatable="false">
+        <!-- 4:3 -->
+        <item>640x480</item>
+        <item>1280x960</item>
+        <item>1600x1200</item>
+        <item>2048x1536</item>
+        <item>2560x1920</item>
+        <item>3264x2448</item>
+        <item>4096x3072</item>
+        <item>4160x3120</item>
+        <!-- 16:9 -->
+        <item>1280x720</item>
+        <item>1920x1080</item>
+        <item>2560x1440</item>
+        <item>3328x1872</item>
+        <item>4096x2304</item>
+    </string-array>
+
+    <!-- Camera Preferences White Balance dialog box entries -->
+    <string-array name="pref_camera_whitebalance_entries_fly" translatable="false">
+        <item>@string/pref_camera_whitebalance_entry_auto</item>
+        <item>@string/pref_camera_whitebalance_entry_incandescent</item>
+        <item>@string/pref_camera_whitebalance_entry_daylight</item>
+        <item>@string/pref_camera_whitebalance_entry_fluorescent</item>
+        <item>@string/pref_camera_whitebalance_entry_cloudy</item>
+    </string-array>
+
+    <string-array name="pref_camera_whitebalance_entryvalues_fly" translatable="false">
+        <item>auto</item>
+        <item>incandescent</item>
+        <item>daylight</item>
+        <item>fluorescent</item>
+        <item>cloudy-daylight</item>
+    </string-array>
+
+    <array name="whitebalance_icons_fly" translatable="false">
+        <item>@drawable/ic_white_balance_auto_holo_light</item>
+        <item>@drawable/ic_white_balance_incandescent_holo_light</item>
+        <item>@drawable/ic_white_balance_sunlight_holo_light</item>
+        <item>@drawable/ic_white_balance_fluorescent_holo_light</item>
+        <item>@drawable/ic_white_balance_cloudy_holo_light</item>
+    </array>
+
+    <!-- anti-banding -->
+    <string-array name="pref_camera_antibanding_entries_fly">
+        <item>@string/pref_camera_antibanding_entry_off</item>
+        <item>@string/pref_camera_antibanding_entry_50hz</item>
+        <item>@string/pref_camera_antibanding_entry_60hz</item>
+    </string-array>
+
+    <string-array name="pref_camera_antibanding_entryvalues_fly" translatable="false">
+        <item>off</item>
+        <item>50hz</item>
+        <item>60hz</item>
+    </string-array>
+
+    <string-array name="pref_camera_grid_entries">
+       <item>@string/pref_camera_grid_entries_off</item>
+       <item>@string/pref_camera_grid_entries_on</item>
+    </string-array>
+    <string-array name="pref_camera_grid_entryvalues" translatable="false">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <string-array name="pref_camera_manualfocus_entries">
+       <item>@string/pref_camera_manualfocus_entry_auto</item>
+       <item>@string/pref_camera_manualfocus_entry_50</item>
+       <item>@string/pref_camera_manualfocus_entry_500</item>
+       <item>@string/pref_camera_manualfocus_entry_1000</item>
+    </string-array>
+    <string-array name="pref_camera_manualfocus_entryvalues" translatable="false">
+        <item>auto</item>
+        <item>50</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="pref_camera_manual_shutter_entries">
+       <item>@string/pref_camera_manual_shutter_auto</item>
+       <item>@string/pref_camera_manual_shutter_0</item>
+       <item>@string/pref_camera_manual_shutter_1</item>
+       <item>@string/pref_camera_manual_shutter_2</item>
+       <item>@string/pref_camera_manual_shutter_4</item>
+       <item>@string/pref_camera_manual_shutter_6</item>
+       <item>@string/pref_camera_manual_shutter_8</item>
+    </string-array>
+    <string-array name="pref_camera_manual_shutter_entryvalues" translatable="false">
+        <item>0</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>8000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pref_camera_shutter_sound_title">Shutter sound</string>
+    <string name="pref_camera_shutter_sound_default" translatable="false">off</string>
+    <string name="pref_camera_shutter_sound_entries_on">On</string>
+    <string name="pref_camera_shutter_sound_entries_off">Off</string>
+
+    <string name="pref_camera_time_stamp_title">Timestamp</string>
+    <string name="pref_camera_time_stamp_default" translatable="false">off</string>
+    <string name="pref_camera_time_stamp_entries_on">On</string>
+    <string name="pref_camera_time_stamp_entries_off">Off</string>
+
+    <string name="pref_camera_grid_title">Grid Lines</string>
+    <string name="pref_camera_grid_default" translatable="false">off</string>
+    <string name="pref_camera_grid_entries_on">On</string>
+    <string name="pref_camera_grid_entries_off">Off</string>
+
+    <string name="pref_camera_manualfocus_title">Manual Focus</string>
+    <string name="pref_camera_manualfocus_default" translatable="false">auto</string>
+    <string name="pref_camera_manualfocus_entry_auto">Auto</string>
+    <string name="pref_camera_manualfocus_entry_50">50</string>
+    <string name="pref_camera_manualfocus_entry_500">500</string>
+    <string name="pref_camera_manualfocus_entry_1000">1000</string>
+
+    <string name="pref_camera_manual_shutter_title">Exposure time</string>
+    <string name="pref_camera_manual_shutter_default" translatable="false">0</string>
+    <string name="pref_camera_manual_shutter_auto">auto</string>
+    <string name="pref_camera_manual_shutter_0">0.5</string>
+    <string name="pref_camera_manual_shutter_1">1</string>
+    <string name="pref_camera_manual_shutter_2">2</string>
+    <string name="pref_camera_manual_shutter_4">4</string>
+    <string name="pref_camera_manual_shutter_6">6</string>
+    <string name="pref_camera_manual_shutter_8">8</string>
+    <string name="pref_camera_manual_shutter_12">12</string>
+    <string name="show_flashlight_toast">Power less than 15%, can not turn on the flash.</string>
+</resources>
